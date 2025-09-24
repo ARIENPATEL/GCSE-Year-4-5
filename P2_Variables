@@ -1,0 +1,6 @@
+an1 = input("Name an animal: ")
+an2 = input("Name an animal: ")
+an3 = input("Name an animal: ")
+print(an1)
+print(an2)
+print(an3)
