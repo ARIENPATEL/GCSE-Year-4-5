@@ -1,0 +1,3 @@
+dn = float(input())
+print(int(dn))
+print(round(dn))
