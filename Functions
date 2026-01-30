@@ -1,0 +1,8 @@
+Def answerYorN():
+	While True:
+		Answer = input(“Enter y or n”)
+		If Answer == “y” or answer == “n”:
+			Return Answer 
+		Else:
+			Print(“Invalid response. Please enter y or n”)
+		
