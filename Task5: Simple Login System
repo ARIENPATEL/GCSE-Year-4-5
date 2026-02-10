@@ -1,0 +1,8 @@
+username = "Boss"
+password = "password"
+user = input("Enter your username: ")
+pas = input("Enter your password: ")
+if user == username and pas == password:
+    print("Correct")
+else:
+    print("Incorrect")
