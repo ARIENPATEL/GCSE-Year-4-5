@@ -1,0 +1,5 @@
+score = int(input("Enter exam score: "))
+passed = score >= 50
+print("Score:", score)
+print("Score:", passed)
+
