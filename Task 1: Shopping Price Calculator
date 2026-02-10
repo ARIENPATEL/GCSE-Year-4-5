@@ -1,0 +1,8 @@
+name = input("Name of item: ")
+price = int(input("Price: "))
+dc = input("Do you have a discount code (y/n): ")
+if dc == "y":
+    cost = int(input("How much discount: "))
+    price = price * (1 - (cost / 100))
+print("Name:",name)
+print("Price:",price)
