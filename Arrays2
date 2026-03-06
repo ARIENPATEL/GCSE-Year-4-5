@@ -1,0 +1,14 @@
+temperature = [6,7,8,9,3]
+totalTemp = 0
+hotDays = 0
+coldDays = 0
+for i in temperatures:
+    totalTemp = totalTemp + i
+    if i => 20:
+        print("Hot Day")
+        hotDays = hotDays + 1
+    else:
+        print("Cold Day")
+        coldDays = coldDays + 1
+    
+  
