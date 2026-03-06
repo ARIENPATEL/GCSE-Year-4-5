@@ -1,0 +1,12 @@
+scores = [4,2,6,7,3]
+print(scores[0])
+print(scores[2])
+
+total = 0
+for i in scores:
+    print(i)
+
+for i in scores:
+    total = total + i
+print(total)
+print(total / 5)
