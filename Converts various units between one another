@@ -1,0 +1,20 @@
+og_unit = input()
+new_unit = input()
+num = int(input())
+if og_unit == "cm" and new_unit == "m":
+    num = num / 100
+elif og_unit == "m" and new_unit == "cm":
+    num = num * 100
+elif og_unit == "cm" and new_unit == "km":
+    num = num / 1000
+elif og_unit == "km" and new_unit == "cm":
+    num = num * 1000
+elif og_unit == "mm" and new_unit == "cm":
+    num = num / 10
+elif og_unit == "cm" and new_unit == "mm":
+    num = num * 10
+elif og_unit == "mm" and new_unit == "m":
+    num = num / 1000
+elif og_unit == "m" and new_unit == "mm":
+    num = num * 1000
+print(num)
