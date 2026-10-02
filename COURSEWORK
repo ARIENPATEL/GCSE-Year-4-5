@@ -1,0 +1,29 @@
+import random
+i = 0
+passwords = ["password", "trinity", "schoool", "1234", "9876"]
+username = ["Bob", "Charlie", "James", "Sam", "Ollie"]
+
+correct = False
+while correct == False:
+    player = input("Enter your username: ")
+    if player not in username:
+        print("try again")
+    else:
+        correct = True
+        user_index = username.index(player)
+
+
+password = False
+while password == False:
+    player1 = input("Enter your password: ")
+    if player1 == passwords[user_index]:
+        print("Access granted! Welcome, " + player + ".")
+        password = True
+    else:
+        print("Incorrect password. Try again.")
+
+
+
+
+
+
